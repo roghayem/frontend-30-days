@@ -30,9 +30,10 @@ input:focus{
     outline: none;
 }
 
-.cards {
+.cards{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(220px, 250px));
+    justify-content: center;
     gap: 30px;
     padding: 40px;
 }
