@@ -1,11 +1,11 @@
-let searchInput = document.querySelector("#searchInput");
-let cards= document.querySelectorAll(".card");
+const searchInput = document.querySelector("#searchInput");
+const cards= document.querySelectorAll(".card");
 
 searchInput.addEventListener("input" ,()=>{
-    let inputValue = searchInput.value.toLowerCase();
+    const inputValue = searchInput.value.toLowerCase();
 
     cards.forEach(function(card){
-        let cardName = card.textContent.toLowerCase();
+        const cardName = card.textContent.toLowerCase();
 
         if(cardName.includes(inputValue)){
             card.style.display = "block";
