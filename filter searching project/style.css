@@ -49,6 +49,7 @@ input:focus{
 .card h2{
     text-align: center;
     margin: 10px;
+    font-size: 19px;
 }
 .card button{
     padding: 10px 20px;
