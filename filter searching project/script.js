@@ -8,7 +8,7 @@ searchInput.addEventListener("input" ,()=>{
         const cardName = card.textContent.toLowerCase();
 
         if(cardName.includes(inputValue)){
-            card.style.display = "block";
+            card.style.display = "flex";
         }else{
             card.style.display="none";
         }
