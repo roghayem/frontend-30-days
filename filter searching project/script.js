@@ -5,7 +5,8 @@ searchInput.addEventListener("input" ,()=>{
     const inputValue = searchInput.value.toLowerCase();
 
     cards.forEach(function(card){
-        const cardName = card.textContent.toLowerCase();
+        //this part for that if you type soe,timh like buy it wont sgow everything
+        const cardName = card.querySelector("h2").textContent.toLowerCase();
 
         if(cardName.includes(inputValue)){
             card.style.display = "flex";
