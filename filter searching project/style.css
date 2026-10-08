@@ -24,21 +24,22 @@ input{
     padding: 10px 12px;
     border: 1px solid gray;
     border-radius: 10px;
-    margin-bottom: 100px;
 }
 input:focus{
     border-color: rgb(159, 159, 255);
     outline: none;
 }
-.cards{
+
+.cards {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 30px;
     padding: 40px;
-    gap: 40px;
 }
-.card{
+
+.card {
+    width: 250px;
     border: 1px solid gray;
-    width: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
