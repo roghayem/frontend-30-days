@@ -56,6 +56,7 @@ input:focus{
 .card .buy{
     width: 90%;
     background: orange;
+    text-align: center;
     color: white;
     padding: 13px 20px;
     border: none;
@@ -63,14 +64,14 @@ input:focus{
     margin: 10px;
     transition: all 0.3s ease;
 }
-.card button:hover{
+.card .buy:hover{
     opacity: 0.8;
 }
 .message{
     text-align: center;
     font-size: 25px;
     font-weight: 700;
-    
+
 }
 
 @media(max-width :768px){
