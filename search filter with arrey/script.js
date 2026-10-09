@@ -43,7 +43,7 @@ const card = document.createElement("div");
 
     const btn = document.createElement("a");
     btn.classList.add("buy");
-    btn.herf= author.buy
+    btn.href= author.buy
     btn.textContent="buy";
 
 
