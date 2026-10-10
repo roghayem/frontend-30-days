@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #f2f2f2;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+}
+.container{
+    width: 100%;
+    max-width: 1600px;
+}
+.search-input{
+    margin: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input{
+    width: 500px;
+    padding: 10px 12px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+input:focus{
+    outline: none;
+    border-color: rgb(114, 114, 255);
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(220px,250px));
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+.card{
+    width: 250px;
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.title{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px;
+}
+.card img{
+    width: 250px;
+    padding: 10px;
+    object-fit: cover;
+}
+.button{
+    padding: 10px 12px;
+    border-radius: 10px;
+    background: orange;
+    color: white;
+    width: 90%;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    text-align: center;
+}
+.button:hover{
+    opacity: 0.8;
+}
+.year{
+    font-size: 16px;
+    font-weight: 400;
+    color: gray;
+    padding-bottom: 10px;
+}
+.message{
+    text-align: center;
+    margin: 20px;
+    font-size: 30px;
+    font-weight: 700;
+}
